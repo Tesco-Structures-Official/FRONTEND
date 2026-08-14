@@ -1,0 +1,228 @@
+.blogpost-page {
+  width: 100%;
+  background: #ffffff;
+}
+
+/* ---------- Hero banner ---------- */
+.blogpost-hero {
+  position: relative;
+  background: linear-gradient(160deg, #1c2431 0%, #263142 60%, #2f7d16 160%);
+  padding: 90px 24px 130px;
+  overflow: hidden;
+  border-bottom-left-radius: 50% 22%;
+  border-bottom-right-radius: 50% 22%;
+}
+
+/* When a blog has an inner image, it fills the hero background */
+.blogpost-hero--image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Dark overlay so the white title stays readable over any photo */
+.blogpost-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(15, 22, 32, 0.55) 0%, rgba(15, 22, 32, 0.62) 100%);
+  pointer-events: none;
+}
+.blogpost-hero:not(.blogpost-hero--image) .blogpost-hero-overlay {
+  background: radial-gradient(120% 80% at 50% 0%, rgba(104, 214, 27, 0.16) 0%, rgba(104, 214, 27, 0) 55%);
+}
+
+.blogpost-hero-inner {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.blogpost-hero-title {
+  color: #ffffff;
+  font-size: clamp(26px, 4vw, 44px);
+  line-height: 1.22;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  margin: 0;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.35);
+}
+
+/* ---------- Container ---------- */
+.blogpost-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px 80px;
+}
+
+/* ---------- Meta card ---------- */
+.blogpost-meta-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: -46px;
+  position: relative;
+  z-index: 2;
+  background: #ffffff;
+  border: 1px solid #eef0f2;
+  border-radius: 14px;
+  box-shadow: 0 14px 40px rgba(16, 24, 40, 0.08);
+  padding: 20px 26px;
+}
+
+.blogpost-meta-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #4a5568;
+  font-size: 15px;
+}
+
+.blogpost-meta-cat {
+  font-weight: 700;
+  color: #2f7d16;
+}
+
+.blogpost-meta-dot { color: #9aa5b1; }
+
+.blogpost-meta-date {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.blogpost-share {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.blogpost-share-label {
+  font-weight: 700;
+  color: #33445c;
+  font-size: 15px;
+}
+
+.blogpost-share-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  color: #33445c;
+  background: #f3f5f6;
+  transition: background 0.2s, color 0.2s;
+  text-decoration: none;
+}
+
+.blogpost-share-icon:hover {
+  background: #68d61b;
+  color: #ffffff;
+}
+
+.blogpost-x-icon {
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 1;
+}
+
+/* ---------- Inner banner image ---------- */
+.blogpost-banner {
+  margin-top: 34px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 14px 40px rgba(16, 24, 40, 0.10);
+}
+
+.blogpost-banner-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* ---------- Body ---------- */
+.blogpost-body {
+  margin-top: 36px;
+  color: #3a4453;
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.blogpost-body p {
+  margin: 0 0 20px;
+}
+
+/* ---------- Back button ---------- */
+.blogpost-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 18px;
+  padding: 11px 20px;
+  border: 1px solid #e2e6ea;
+  border-radius: 10px;
+  background: #ffffff;
+  color: #33445c;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.blogpost-back-btn:hover {
+  border-color: #68d61b;
+  color: #2f7d16;
+}
+
+/* ---------- Not found ---------- */
+.blogpost-notfound {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 120px 24px;
+  text-align: center;
+}
+
+.blogpost-back-link {
+  color: #2f7d16;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .blogpost-hero { padding: 66px 20px 100px; border-bottom-left-radius: 50% 14%; border-bottom-right-radius: 50% 14%; }
+  .blogpost-meta-card { padding: 16px 18px; }
+  .blogpost-body { font-size: 16px; }
+}
+
+/* Rich HTML body: headings & lists */
+.blogpost-body h2 {
+  font-size: clamp(20px, 2.4vw, 26px);
+  line-height: 1.3;
+  font-weight: 800;
+  color: #1f2937;
+  margin: 38px 0 14px;
+  letter-spacing: -0.01em;
+}
+.blogpost-body ul {
+  margin: 0 0 20px;
+  padding-left: 22px;
+}
+.blogpost-body li {
+  margin: 0 0 10px;
+  line-height: 1.7;
+}
+.blogpost-body strong { color: #1f2937; font-weight: 700; }
+.blogpost-body a { color: #2f7d16; font-weight: 600; }
+
+/* Rich HTML body: h3 subheadings (used by PEB blogs) */
+.blogpost-body h3 {
+  font-size: clamp(17px, 1.9vw, 20px);
+  line-height: 1.35;
+  font-weight: 700;
+  color: #33445c;
+  margin: 26px 0 8px;
+}

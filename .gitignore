@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Large media / archives NOT needed in the code repo
+*.mp4
+*.zip
+2D DETAILING.pdf
+architectural plans.pdf
+
+# Logs and environment
+*.log
+npm-debug.log*
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,61 @@
+.float-btn {
+  position: fixed;
+  bottom: 24px;
+  z-index: 9998;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-decoration: none;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.float-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+.float-btn:active { transform: scale(0.96); }
+
+.float-btn--whatsapp {
+  left: 24px;
+  background: #25D366;
+}
+
+.float-btn--phone {
+  right: 24px;
+  background: var(--primary-green, #68D61B);
+}
+
+/* Pulsing ring behind each button */
+.float-btn-ring {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: inherit;
+  z-index: -1;
+  animation: float-btn-pulse 2s ease-out infinite;
+}
+
+.float-btn--whatsapp .float-btn-ring { background: #25D366; }
+.float-btn--phone .float-btn-ring { background: var(--primary-green, #68D61B); }
+
+@keyframes float-btn-pulse {
+  0%   { transform: scale(1);   opacity: 0.55; }
+  70%  { transform: scale(1.7); opacity: 0; }
+  100% { transform: scale(1.7); opacity: 0; }
+}
+
+@media (max-width: 600px) {
+  .float-btn { width: 52px; height: 52px; bottom: 18px; }
+  .float-btn--whatsapp { left: 16px; }
+  .float-btn--phone { right: 16px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .float-btn-ring { animation: none; opacity: 0; }
+}

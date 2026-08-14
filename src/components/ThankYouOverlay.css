@@ -1,0 +1,90 @@
+.ty-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: #eef0f2;
+  animation: ty-fade 0.35s ease;
+}
+
+@keyframes ty-fade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.ty-card {
+  position: relative;
+  width: 100%;
+  max-width: 620px;
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: 0 24px 60px rgba(16, 24, 40, 0.14), 0 2px 6px rgba(16, 24, 40, 0.06);
+  overflow: hidden;
+  animation: ty-rise 0.45s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@keyframes ty-rise {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.ty-card-bg {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(120% 90% at 100% 100%, rgba(104, 214, 27, 0.07) 0%, rgba(255, 255, 255, 0) 55%),
+    linear-gradient(160deg, #ffffff 0%, #ffffff 55%, #f3f5f6 100%);
+  pointer-events: none;
+}
+
+.ty-card-inner {
+  position: relative;
+  padding: 56px 56px 52px;
+  text-align: center;
+}
+
+.ty-logo {
+  height: 62px;
+  width: auto;
+  margin: 0 auto 30px;
+  display: block;
+}
+
+.ty-title {
+  margin: 0 0 18px;
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #33445c;
+  letter-spacing: -0.01em;
+}
+
+.ty-text {
+  margin: 0 auto 26px;
+  max-width: 460px;
+  font-size: 17px;
+  line-height: 1.6;
+  color: #4a5568;
+}
+
+.ty-count {
+  margin: 0;
+  font-size: 15px;
+  color: #5a6474;
+}
+
+.ty-count strong {
+  color: #33445c;
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .ty-card-inner { padding: 40px 24px 36px; }
+  .ty-logo { height: 50px; margin-bottom: 24px; }
+  .ty-title { font-size: 27px; }
+  .ty-text { font-size: 15.5px; }
+  .ty-count { font-size: 14px; }
+}
