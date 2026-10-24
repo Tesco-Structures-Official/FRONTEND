@@ -5,11 +5,11 @@ import { blogPosts } from '../data/blogPosts';
 import './Blog.css';
 
 const categories = [
-  { name: 'All', count: 48 },
+  { name: 'All', count: 50 },
   { name: 'PEB Structures', count: 11 },
   { name: 'Civil Works', count: 10 },
   { name: 'Roofing Systems', count: 12 },
-  { name: 'Tensile Design', count: 5 }
+  { name: 'Tensile Design', count: 7 }
 ];
 
 const Blog = () => {

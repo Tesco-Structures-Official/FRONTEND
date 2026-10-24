@@ -44,10 +44,19 @@ const ROUTES = [
   '/blog/tensile-structure-chennai',
   '/blog/tensile-roofing-coimbatore-guide',
   '/blog/tensile-roofing-coimbatore',
+  '/blog/shingles-roofing-coimbatore',
+  '/blog/tensile-roofing-outdoor-structures',
   '/blog/best-peb-contractors-in-chennai-warehouses-factories-sheds',
   '/blog/turnkey-peb-contractors-in-chennai',
   '/blog/best-peb-contractors-in-chennai',
   '/blog/best-peb-companies-in-chennai',
+  '/blog/peb-warehouse-construction-chennai',
+  '/blog/peb-builders-in-chennai',
+  '/blog/peb-companies-in-chennai',
+  '/blog/peb-specialists-chennai',
+  '/blog/reliable-peb-builders-in-chennai',
+  '/blog/pre-engineered-steel-buildings-time-cost',
+  '/blog/trusted-peb-construction-company-in-chennai',
 ];
 
 const MIME = {

@@ -216,7 +216,8 @@
   line-height: 1.7;
 }
 .blogpost-body strong { color: #1f2937; font-weight: 700; }
-.blogpost-body a { color: #2f7d16; font-weight: 600; }
+.blogpost-body a { color: #2f7d16; font-weight: 600; text-decoration: none; cursor: pointer; }
+.blogpost-body a:hover { text-decoration: underline; }
 
 /* Rich HTML body: h3 subheadings (used by PEB blogs) */
 .blogpost-body h3 {

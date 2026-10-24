@@ -36,6 +36,9 @@ function App() {
           <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/contact" element={<ContactPage />} />
+          {/* URL shown while the contact form thank-you popup is open. Same page,
+              so a refresh or direct hit lands on the contact form, not the catch-all. */}
+          <Route path="/contact/thank-you" element={<ContactPage />} />
           {/* Catch-all: any unknown URL routes back to the home page */}
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

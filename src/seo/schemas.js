@@ -447,7 +447,7 @@ export const civilSchemas = [
         "@type": "ListItem",
         "position": 2,
         "name": "Civil Construction Services",
-        "item": "https://www.tescostructures.com/civil-construction-services"
+        "item": "https://www.tescostructures.com/civil-construction-services/"
       }
     ]
   },
@@ -455,7 +455,7 @@ export const civilSchemas = [
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Civil Construction Company in Chennai | Tesco Structure",
-    "url": "https://www.tescostructures.com/civil-construction-services",
+    "url": "https://www.tescostructures.com/civil-construction-services/",
     "description": "Tesco Structure –  trusted civil construction company in Chennai, Coimbatore, Madurai & South India. RCC foundations & turnkey civil works. Get a free quote today."
   },
   {
@@ -593,7 +593,7 @@ export const archSchemas = [
         "@type": "ListItem",
         "position": 2,
         "name": "Architectural Design & Structural Consultancy",
-        "item": "https://www.tescostructures.com/architectural-design-structural-consultancy-chennai"
+        "item": "https://www.tescostructures.com/architectural-design-structural-consultancy-chennai/"
       }
     ]
   },
@@ -601,7 +601,7 @@ export const archSchemas = [
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Architectural Design & Structural Consultancy | Tesco Structures",
-    "url": "https://www.tescostructures.com/architectural-design-structural-consultancy-chennai",
+    "url": "https://www.tescostructures.com/architectural-design-structural-consultancy-chennai/",
     "description": "Expert architectural design and structural consultancy in Chennai & South India. ISO-certified. 15+ years. 150+ projects. STAAD Pro, ETABS, BIM. Call for a free proposal."
   },
   {
@@ -739,7 +739,7 @@ export const roofingSchemas = [
         "@type": "ListItem",
         "position": 2,
         "name": "Roofing Solutions Chennai",
-        "item": "https://www.tescostructures.com/roofing-solutions-chennai"
+        "item": "https://www.tescostructures.com/roofing-solutions-chennai/"
       }
     ]
   },
@@ -747,7 +747,7 @@ export const roofingSchemas = [
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Roofing Contractors in Chennai | Tesco Structures",
-    "url": "https://www.tescostructures.com/roofing-solutions-chennai",
+    "url": "https://www.tescostructures.com/roofing-solutions-chennai/",
     "description": "Expert roofing contractors in Chennai offering uPVC, polycarbonate, GI, glass, Mangalore tile & shingles roofing. Trusted across Tamil Nadu & South India."
   },
   {

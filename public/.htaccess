@@ -15,6 +15,11 @@
   RewriteCond %{HTTP_HOST} ^tescostructures\.com$ [NC]
   RewriteRule ^(.*)$ https://www.tescostructures.com/$1 [R=301,L]
 
+  # 0b) /blog has no index page on the server (was returning 403 Forbidden).
+  #     Send it straight to the final careers URL in a single 301 hop.
+  #     Individual posts under /blog/<slug>/ are NOT affected.
+  RewriteRule ^blog/?$ https://www.tescostructures.com/careers/ [R=301,L]
+
   # 1) Serve real files & directories as-is (JS, CSS, images, sitemap.xml, robots.txt)
   RewriteCond %{REQUEST_FILENAME} -f [OR]
   RewriteCond %{REQUEST_FILENAME} -d

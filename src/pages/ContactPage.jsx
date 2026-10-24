@@ -4,6 +4,9 @@ import { WEB3FORMS_KEY_SALES, WEB3FORMS_ENDPOINT } from '../web3FormsConfig';
 import ThankYouOverlay from '../components/ThankYouOverlay';
 import './ContactPage.css';
 
+// URL shown while the thank-you popup is on screen.
+const THANK_YOU_PATH = '/contact/thank-you';
+
 const ContactPage = () => {
   const formRef = useRef(null);
   const [status, setStatus] = useState({ state: 'idle', message: '' });
@@ -32,6 +35,9 @@ const ContactPage = () => {
       const data = await res.json();
 
       if (data.success) {
+        // Show a distinct URL while the thank-you popup is open (for GTM / analytics
+        // conversion tracking). No route change, so this page stays mounted.
+        window.history.pushState({}, '', THANK_YOU_PATH);
         setStatus({ state: 'success', message: '' });
         setFormData({ name: '', email: '', phone: '', service: '', message: '' });
       } else {
@@ -81,7 +87,10 @@ const ContactPage = () => {
               </div>
               <div className="info-details">
                 <span className="info-label">PHONE</span>
-                <span className="info-val">+91 90033 28229</span>
+                <span className="info-val">
+                  <a href="tel:+919003328229" className="info-val">+91 90033 28229</a><br />
+                  <a href="tel:+919600652424" className="info-val">+91 96006 52424</a>
+                </span>
               </div>
             </div>
 
