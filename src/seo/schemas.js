@@ -155,7 +155,7 @@ export const pebSchemas = [
         "@type": "ListItem",
         "position": 2,
         "name": "PEB Contractors in Chennai",
-        "item": "https://www.tescostructures.com/peb-contractors-in-chennai"
+        "item": "https://www.tescostructures.com/peb-contractors-in-chennai/"
       }
     ]
   },
@@ -163,7 +163,7 @@ export const pebSchemas = [
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Pre-Engineered Buildings Chennai | Tesco Structures",
-    "url": "https://www.tescostructures.com/peb-contractors-in-chennai",
+    "url": "https://www.tescostructures.com/peb-contractors-in-chennai/",
     "description": "15+ years building pre-engineered steel structures across South India. Warehouses, factories, cold storage & more —  IS-code engineered, on time. Book a visit."
   },
   {

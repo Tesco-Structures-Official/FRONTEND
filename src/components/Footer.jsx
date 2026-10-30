@@ -4,9 +4,10 @@ import { useLocation } from 'react-router-dom';
 // We'll render custom SVGs for the social networks to ensure perfect compatibility and avoid version-specific Lucide export mismatch.
 
 const Footer = () => {
-  // Homepage SEO spec lists the footer headings as H2; other pages keep H4.
+  // The SEO specs for these pages list the footer headings as H2; other pages keep H4.
   const { pathname } = useLocation();
-  const FooterHeading = pathname === '/' ? 'h2' : 'h4';
+  const H2_FOOTER_PAGES = ['/', '/peb-contractors-in-chennai', '/peb-contractors-in-chennai/'];
+  const FooterHeading = H2_FOOTER_PAGES.includes(pathname) ? 'h2' : 'h4';
   return (
     <footer className="footer-section">
       <div className="footer-shade-container">

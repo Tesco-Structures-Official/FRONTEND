@@ -13,9 +13,8 @@ let out = html
   .replace(/[ \t]*<!-- Homepage SEO[\s\S]*?-->\r?\n/, '')
   .replace(/[ \t]*<title[^>]*data-static-seo[^>]*>[\s\S]*?<\/title>\r?\n?/g, '')
   .replace(/[ \t]*<(meta|link)\b[^>]*data-static-seo[^>]*>\r?\n?/g, '');
-// Neutral title for the moment before React sets the real one.
-out = out.replace('</head>', '    <title>Tesco Structures</title>\n  </head>');
-
 if (/data-static-seo/.test(out)) throw new Error('make-spa-fallback: static SEO tags left in app.html');
+// Neutral title until React sets the page's own one; marked so <Seo> removes it.
+out = out.replace('</head>', '    <title data-static-seo>Tesco Structures</title>\n  </head>');
 await fs.writeFile(path.join(DIST, 'app.html'), out);
 console.log('[spa-fallback] wrote dist/app.html');

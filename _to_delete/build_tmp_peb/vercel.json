@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/peb-contractors-in-chennai/", "destination": "/peb-contractors-in-chennai/index.html" },
+    { "source": "/peb-contractors-in-chennai", "destination": "/peb-contractors-in-chennai/index.html" },
+    { "source": "/(.*)", "destination": "/app.html" }
+  ]
+}
