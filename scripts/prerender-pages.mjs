@@ -21,11 +21,36 @@ const ROUTES = [
   '/roofing-solutions-chennai',
   '/about-us',
   '/careers',
+  // PEB blog posts
+  '/blog/best-peb-contractors-in-chennai-warehouses-factories-sheds',
+  '/blog/best-peb-contractors-in-chennai',
+  '/blog/turnkey-peb-contractors-in-chennai',
+  '/blog/best-peb-companies-in-chennai',
+  '/blog/peb-warehouse-construction-chennai',
+  '/blog/peb-builders-in-chennai',
+  '/blog/peb-companies-in-chennai',
+  '/blog/peb-specialists-chennai',
+  '/blog/reliable-peb-builders-in-chennai',
+  '/blog/pre-engineered-steel-buildings-time-cost',
+  '/blog/trusted-peb-construction-company-in-chennai',
+  // Tensile blog posts
+  '/blog/tensile-car-parking-shed-chennai',
+  '/blog/best-roofing-sheets-in-coimbatore',
+  '/blog/tensile-structure-chennai',
+  '/blog/tensile-roofing-coimbatore-guide',
+  '/blog/tensile-roofing-coimbatore',
+  '/blog/shingles-roofing-coimbatore',
+  '/blog/tensile-roofing-outdoor-structures',
+  '/blog/tensile-roofing-guide',
+  '/blog/future-of-tensile-roofing',
+  '/blog/tensile-roofing-parking-walkways-public-spaces',
+  '/blog/tensile-structure-in-chennai',
+  '/blog/types-of-tensile-roofing-structures',
 ];
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DIST = path.join(ROOT, 'dist');
-const { render, schemasByRoute } = await import(
+const { render, schemasFor } = await import(
   pathToFileURL(path.join(ROOT, 'dist-ssr', 'entry-server.js')).href
 );
 const EMPTY_ROOT = '<div id="root"></div>';
@@ -44,7 +69,7 @@ for (const route of ROUTES) {
   const h1 = count(/<h1\b/g), h2 = count(/<h2\b/g), h3 = count(/<h3\b/g);
   if (h1 !== 1) throw new Error(`prerender-pages ${route}: expected 1 <h1>, found ${h1}`);
 
-  const jsonLd = (schemasByRoute[route] || [])
+  const jsonLd = (schemasFor(route) || [])
     .map((s) => `<script type="application/ld+json" data-seo-jsonld>${JSON.stringify(s).replace(/</g, '\\u003c')}</script>`)
     .join('\n    ');
 

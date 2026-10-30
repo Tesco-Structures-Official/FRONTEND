@@ -1,6 +1,7 @@
 import { renderToString } from 'react-dom/server';
 import { StaticRouter } from 'react-router-dom';
 import { AppShell } from './App.jsx';
+import { getPostBySlug } from './data/blogPosts';
 import { homeSchemas, pebSchemas, tensileSchemas, civilSchemas, archSchemas, roofingSchemas, aboutSchemas, careersSchemas } from './seo/schemas';
 
 export function render(url) {
@@ -22,3 +23,10 @@ export const schemasByRoute = {
   '/about-us': aboutSchemas,
   '/careers': careersSchemas,
 };
+
+// JSON-LD for any route: page schemas above, or a blog post's own schemas.
+export function schemasFor(route) {
+  if (schemasByRoute[route]) return schemasByRoute[route];
+  const m = route.match(/^\/blog\/([^/]+)$/);
+  return m ? getPostBySlug(m[1])?.schemas || [] : [];
+}

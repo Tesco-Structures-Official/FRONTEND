@@ -1,0 +1,248 @@
+{
+  "rewrites": [
+    {
+      "source": "/peb-contractors-in-chennai/",
+      "destination": "/peb-contractors-in-chennai/index.html"
+    },
+    {
+      "source": "/peb-contractors-in-chennai",
+      "destination": "/peb-contractors-in-chennai/index.html"
+    },
+    {
+      "source": "/tensile-roofing-chennai/",
+      "destination": "/tensile-roofing-chennai/index.html"
+    },
+    {
+      "source": "/tensile-roofing-chennai",
+      "destination": "/tensile-roofing-chennai/index.html"
+    },
+    {
+      "source": "/civil-construction-services/",
+      "destination": "/civil-construction-services/index.html"
+    },
+    {
+      "source": "/civil-construction-services",
+      "destination": "/civil-construction-services/index.html"
+    },
+    {
+      "source": "/architectural-design-structural-consultancy-chennai/",
+      "destination": "/architectural-design-structural-consultancy-chennai/index.html"
+    },
+    {
+      "source": "/architectural-design-structural-consultancy-chennai",
+      "destination": "/architectural-design-structural-consultancy-chennai/index.html"
+    },
+    {
+      "source": "/roofing-solutions-chennai/",
+      "destination": "/roofing-solutions-chennai/index.html"
+    },
+    {
+      "source": "/roofing-solutions-chennai",
+      "destination": "/roofing-solutions-chennai/index.html"
+    },
+    {
+      "source": "/about-us/",
+      "destination": "/about-us/index.html"
+    },
+    {
+      "source": "/about-us",
+      "destination": "/about-us/index.html"
+    },
+    {
+      "source": "/careers/",
+      "destination": "/careers/index.html"
+    },
+    {
+      "source": "/careers",
+      "destination": "/careers/index.html"
+    },
+    {
+      "source": "/blog/best-peb-contractors-in-chennai-warehouses-factories-sheds/",
+      "destination": "/blog/best-peb-contractors-in-chennai-warehouses-factories-sheds/index.html"
+    },
+    {
+      "source": "/blog/best-peb-contractors-in-chennai-warehouses-factories-sheds",
+      "destination": "/blog/best-peb-contractors-in-chennai-warehouses-factories-sheds/index.html"
+    },
+    {
+      "source": "/blog/best-peb-contractors-in-chennai/",
+      "destination": "/blog/best-peb-contractors-in-chennai/index.html"
+    },
+    {
+      "source": "/blog/best-peb-contractors-in-chennai",
+      "destination": "/blog/best-peb-contractors-in-chennai/index.html"
+    },
+    {
+      "source": "/blog/turnkey-peb-contractors-in-chennai/",
+      "destination": "/blog/turnkey-peb-contractors-in-chennai/index.html"
+    },
+    {
+      "source": "/blog/turnkey-peb-contractors-in-chennai",
+      "destination": "/blog/turnkey-peb-contractors-in-chennai/index.html"
+    },
+    {
+      "source": "/blog/best-peb-companies-in-chennai/",
+      "destination": "/blog/best-peb-companies-in-chennai/index.html"
+    },
+    {
+      "source": "/blog/best-peb-companies-in-chennai",
+      "destination": "/blog/best-peb-companies-in-chennai/index.html"
+    },
+    {
+      "source": "/blog/peb-warehouse-construction-chennai/",
+      "destination": "/blog/peb-warehouse-construction-chennai/index.html"
+    },
+    {
+      "source": "/blog/peb-warehouse-construction-chennai",
+      "destination": "/blog/peb-warehouse-construction-chennai/index.html"
+    },
+    {
+      "source": "/blog/peb-builders-in-chennai/",
+      "destination": "/blog/peb-builders-in-chennai/index.html"
+    },
+    {
+      "source": "/blog/peb-builders-in-chennai",
+      "destination": "/blog/peb-builders-in-chennai/index.html"
+    },
+    {
+      "source": "/blog/peb-companies-in-chennai/",
+      "destination": "/blog/peb-companies-in-chennai/index.html"
+    },
+    {
+      "source": "/blog/peb-companies-in-chennai",
+      "destination": "/blog/peb-companies-in-chennai/index.html"
+    },
+    {
+      "source": "/blog/peb-specialists-chennai/",
+      "destination": "/blog/peb-specialists-chennai/index.html"
+    },
+    {
+      "source": "/blog/peb-specialists-chennai",
+      "destination": "/blog/peb-specialists-chennai/index.html"
+    },
+    {
+      "source": "/blog/reliable-peb-builders-in-chennai/",
+      "destination": "/blog/reliable-peb-builders-in-chennai/index.html"
+    },
+    {
+      "source": "/blog/reliable-peb-builders-in-chennai",
+      "destination": "/blog/reliable-peb-builders-in-chennai/index.html"
+    },
+    {
+      "source": "/blog/pre-engineered-steel-buildings-time-cost/",
+      "destination": "/blog/pre-engineered-steel-buildings-time-cost/index.html"
+    },
+    {
+      "source": "/blog/pre-engineered-steel-buildings-time-cost",
+      "destination": "/blog/pre-engineered-steel-buildings-time-cost/index.html"
+    },
+    {
+      "source": "/blog/trusted-peb-construction-company-in-chennai/",
+      "destination": "/blog/trusted-peb-construction-company-in-chennai/index.html"
+    },
+    {
+      "source": "/blog/trusted-peb-construction-company-in-chennai",
+      "destination": "/blog/trusted-peb-construction-company-in-chennai/index.html"
+    },
+    {
+      "source": "/blog/tensile-car-parking-shed-chennai/",
+      "destination": "/blog/tensile-car-parking-shed-chennai/index.html"
+    },
+    {
+      "source": "/blog/tensile-car-parking-shed-chennai",
+      "destination": "/blog/tensile-car-parking-shed-chennai/index.html"
+    },
+    {
+      "source": "/blog/best-roofing-sheets-in-coimbatore/",
+      "destination": "/blog/best-roofing-sheets-in-coimbatore/index.html"
+    },
+    {
+      "source": "/blog/best-roofing-sheets-in-coimbatore",
+      "destination": "/blog/best-roofing-sheets-in-coimbatore/index.html"
+    },
+    {
+      "source": "/blog/tensile-structure-chennai/",
+      "destination": "/blog/tensile-structure-chennai/index.html"
+    },
+    {
+      "source": "/blog/tensile-structure-chennai",
+      "destination": "/blog/tensile-structure-chennai/index.html"
+    },
+    {
+      "source": "/blog/tensile-roofing-coimbatore-guide/",
+      "destination": "/blog/tensile-roofing-coimbatore-guide/index.html"
+    },
+    {
+      "source": "/blog/tensile-roofing-coimbatore-guide",
+      "destination": "/blog/tensile-roofing-coimbatore-guide/index.html"
+    },
+    {
+      "source": "/blog/tensile-roofing-coimbatore/",
+      "destination": "/blog/tensile-roofing-coimbatore/index.html"
+    },
+    {
+      "source": "/blog/tensile-roofing-coimbatore",
+      "destination": "/blog/tensile-roofing-coimbatore/index.html"
+    },
+    {
+      "source": "/blog/shingles-roofing-coimbatore/",
+      "destination": "/blog/shingles-roofing-coimbatore/index.html"
+    },
+    {
+      "source": "/blog/shingles-roofing-coimbatore",
+      "destination": "/blog/shingles-roofing-coimbatore/index.html"
+    },
+    {
+      "source": "/blog/tensile-roofing-outdoor-structures/",
+      "destination": "/blog/tensile-roofing-outdoor-structures/index.html"
+    },
+    {
+      "source": "/blog/tensile-roofing-outdoor-structures",
+      "destination": "/blog/tensile-roofing-outdoor-structures/index.html"
+    },
+    {
+      "source": "/blog/tensile-roofing-guide/",
+      "destination": "/blog/tensile-roofing-guide/index.html"
+    },
+    {
+      "source": "/blog/tensile-roofing-guide",
+      "destination": "/blog/tensile-roofing-guide/index.html"
+    },
+    {
+      "source": "/blog/future-of-tensile-roofing/",
+      "destination": "/blog/future-of-tensile-roofing/index.html"
+    },
+    {
+      "source": "/blog/future-of-tensile-roofing",
+      "destination": "/blog/future-of-tensile-roofing/index.html"
+    },
+    {
+      "source": "/blog/tensile-roofing-parking-walkways-public-spaces/",
+      "destination": "/blog/tensile-roofing-parking-walkways-public-spaces/index.html"
+    },
+    {
+      "source": "/blog/tensile-roofing-parking-walkways-public-spaces",
+      "destination": "/blog/tensile-roofing-parking-walkways-public-spaces/index.html"
+    },
+    {
+      "source": "/blog/tensile-structure-in-chennai/",
+      "destination": "/blog/tensile-structure-in-chennai/index.html"
+    },
+    {
+      "source": "/blog/tensile-structure-in-chennai",
+      "destination": "/blog/tensile-structure-in-chennai/index.html"
+    },
+    {
+      "source": "/blog/types-of-tensile-roofing-structures/",
+      "destination": "/blog/types-of-tensile-roofing-structures/index.html"
+    },
+    {
+      "source": "/blog/types-of-tensile-roofing-structures",
+      "destination": "/blog/types-of-tensile-roofing-structures/index.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/app.html"
+    }
+  ]
+}
