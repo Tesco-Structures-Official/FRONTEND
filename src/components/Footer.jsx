@@ -14,6 +14,7 @@ const Footer = () => {
     '/architectural-design-structural-consultancy-chennai', '/architectural-design-structural-consultancy-chennai/',
     '/roofing-solutions-chennai', '/roofing-solutions-chennai/',
     '/about-us', '/about-us/',
+    '/careers', '/careers/',
   ];
   const FooterHeading = H2_FOOTER_PAGES.includes(pathname) ? 'h2' : 'h4';
   return (

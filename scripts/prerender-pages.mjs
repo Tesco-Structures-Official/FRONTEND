@@ -20,6 +20,7 @@ const ROUTES = [
   '/architectural-design-structural-consultancy-chennai',
   '/roofing-solutions-chennai',
   '/about-us',
+  '/careers',
 ];
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');

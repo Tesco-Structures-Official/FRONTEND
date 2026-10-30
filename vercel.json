@@ -49,6 +49,14 @@
       "destination": "/about-us/index.html"
     },
     {
+      "source": "/careers/",
+      "destination": "/careers/index.html"
+    },
+    {
+      "source": "/careers",
+      "destination": "/careers/index.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/app.html"
     }
