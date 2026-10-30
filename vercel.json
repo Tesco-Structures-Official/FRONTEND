@@ -17,6 +17,14 @@
       "destination": "/tensile-roofing-chennai/index.html"
     },
     {
+      "source": "/civil-construction-services/",
+      "destination": "/civil-construction-services/index.html"
+    },
+    {
+      "source": "/civil-construction-services",
+      "destination": "/civil-construction-services/index.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/app.html"
     }
