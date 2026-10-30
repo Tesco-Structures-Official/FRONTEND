@@ -18,6 +18,7 @@ const ROUTES = [
   '/tensile-roofing-chennai',
   '/civil-construction-services',
   '/architectural-design-structural-consultancy-chennai',
+  '/roofing-solutions-chennai',
 ];
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');

@@ -33,6 +33,14 @@
       "destination": "/architectural-design-structural-consultancy-chennai/index.html"
     },
     {
+      "source": "/roofing-solutions-chennai/",
+      "destination": "/roofing-solutions-chennai/index.html"
+    },
+    {
+      "source": "/roofing-solutions-chennai",
+      "destination": "/roofing-solutions-chennai/index.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/app.html"
     }

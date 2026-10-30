@@ -12,6 +12,7 @@ const Footer = () => {
     '/tensile-roofing-chennai', '/tensile-roofing-chennai/',
     '/civil-construction-services', '/civil-construction-services/',
     '/architectural-design-structural-consultancy-chennai', '/architectural-design-structural-consultancy-chennai/',
+    '/roofing-solutions-chennai', '/roofing-solutions-chennai/',
   ];
   const FooterHeading = H2_FOOTER_PAGES.includes(pathname) ? 'h2' : 'h4';
   return (
