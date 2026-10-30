@@ -17,9 +17,11 @@ import Careers from './pages/Careers';
 import ContactPage from './pages/ContactPage';
 import './App.css';
 
-function App() {
+// Everything inside the router. Exported so the build can render the homepage
+// to static HTML (scripts/prerender-home.mjs) with a StaticRouter.
+export function AppShell() {
   return (
-    <Router>
+    <>
       <ScrollToTop />
       <ScrollReveal />
       <div className="app-container">
@@ -45,6 +47,14 @@ function App() {
         <Footer />
         <FloatingContactButtons />
       </div>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <AppShell />
     </Router>
   );
 }
