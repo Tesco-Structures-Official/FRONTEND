@@ -41,6 +41,14 @@
       "destination": "/roofing-solutions-chennai/index.html"
     },
     {
+      "source": "/about-us/",
+      "destination": "/about-us/index.html"
+    },
+    {
+      "source": "/about-us",
+      "destination": "/about-us/index.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/app.html"
     }

@@ -1,7 +1,7 @@
 import { renderToString } from 'react-dom/server';
 import { StaticRouter } from 'react-router-dom';
 import { AppShell } from './App.jsx';
-import { homeSchemas, pebSchemas, tensileSchemas, civilSchemas, archSchemas, roofingSchemas } from './seo/schemas';
+import { homeSchemas, pebSchemas, tensileSchemas, civilSchemas, archSchemas, roofingSchemas, aboutSchemas } from './seo/schemas';
 
 export function render(url) {
   return renderToString(
@@ -19,4 +19,5 @@ export const schemasByRoute = {
   '/civil-construction-services': civilSchemas,
   '/architectural-design-structural-consultancy-chennai': archSchemas,
   '/roofing-solutions-chennai': roofingSchemas,
+  '/about-us': aboutSchemas,
 };
