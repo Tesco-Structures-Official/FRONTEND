@@ -6,7 +6,11 @@ import { useLocation } from 'react-router-dom';
 const Footer = () => {
   // The SEO specs for these pages list the footer headings as H2; other pages keep H4.
   const { pathname } = useLocation();
-  const H2_FOOTER_PAGES = ['/', '/peb-contractors-in-chennai', '/peb-contractors-in-chennai/'];
+  const H2_FOOTER_PAGES = [
+    '/',
+    '/peb-contractors-in-chennai', '/peb-contractors-in-chennai/',
+    '/tensile-roofing-chennai', '/tensile-roofing-chennai/',
+  ];
   const FooterHeading = H2_FOOTER_PAGES.includes(pathname) ? 'h2' : 'h4';
   return (
     <footer className="footer-section">

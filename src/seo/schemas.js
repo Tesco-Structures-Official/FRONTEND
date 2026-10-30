@@ -301,7 +301,7 @@ export const tensileSchemas = [
         "@type": "ListItem",
         "position": 2,
         "name": "Tensile Roofing Chennai",
-        "item": "https://www.tescostructures.com/tensile-roofing-chennai"
+        "item": "https://www.tescostructures.com/tensile-roofing-chennai/"
       }
     ]
   },
@@ -309,7 +309,7 @@ export const tensileSchemas = [
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Tensile Roofing Services in Chennai | Tesco Structures",
-    "url": "https://www.tescostructures.com/tensile-roofing-chennai",
+    "url": "https://www.tescostructures.com/tensile-roofing-chennai/",
     "description": "Expert tensile roofing services in Chennai. Custom tensile fabric structures for car parking, malls & stadiums. 15+ years. 350+ spans. Free site inspection."
   },
   {

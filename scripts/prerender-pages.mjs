@@ -12,7 +12,7 @@ import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 
-const ROUTES = ['/', '/peb-contractors-in-chennai'];
+const ROUTES = ['/', '/peb-contractors-in-chennai', '/tensile-roofing-chennai'];
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DIST = path.join(ROOT, 'dist');

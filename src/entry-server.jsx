@@ -1,7 +1,7 @@
 import { renderToString } from 'react-dom/server';
 import { StaticRouter } from 'react-router-dom';
 import { AppShell } from './App.jsx';
-import { homeSchemas, pebSchemas } from './seo/schemas';
+import { homeSchemas, pebSchemas, tensileSchemas } from './seo/schemas';
 
 export function render(url) {
   return renderToString(
@@ -15,4 +15,5 @@ export function render(url) {
 export const schemasByRoute = {
   '/': homeSchemas,
   '/peb-contractors-in-chennai': pebSchemas,
+  '/tensile-roofing-chennai': tensileSchemas,
 };
