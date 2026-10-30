@@ -100,7 +100,8 @@ function createServer() {
       }
 
       // Otherwise fall back to the SPA entry so React can route it client-side.
-      const indexHtml = await fs.readFile(path.join(DIST, 'index.html'));
+      const fallback = existsSync(path.join(DIST, 'app.html')) ? 'app.html' : 'index.html';
+      const indexHtml = await fs.readFile(path.join(DIST, fallback));
       res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
       res.end(indexHtml);
     } catch (err) {

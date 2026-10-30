@@ -315,10 +315,10 @@ const Services = () => {
       <div className="container services-container">
         
         <ScrollReveal className="services-header" delay={0.1} y={30}>
-          <h2 className="services-title">
+          <h3 className="services-title">
             Specialized <span className="highlight-green">PEB Solutions</span><br />
             Across 9 Sectors
-          </h2>
+          </h3>
         </ScrollReveal>
 
         <ScrollReveal className="services-content" delay={0.3} y={40}>

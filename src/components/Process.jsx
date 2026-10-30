@@ -56,9 +56,9 @@ const Process = () => {
       <div className="container">
         
         <div className="process-header">
-          <h2 className="process-title">
+          <h3 className="process-title">
             Our PEB <span className="highlight-green">Manufacturing Process</span>
-          </h2>
+          </h3>
           <p className="process-desc">
             From the first consultation to final handover, our PEB manufacturing process runs in six clear steps - built over 15 years to keep projects on time and the steelwork honest.
           </p>

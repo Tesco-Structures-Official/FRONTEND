@@ -11,11 +11,11 @@ const Partner = () => {
         <div className="partner-left">
           <div className="partner-badge gradient-badge">WHY TESCO STRUCTURES</div>
           
-          <h2 className="partner-title">
+          <h3 className="partner-title">
             Your Industrial Project<br/>
             Deserves a <span className="highlight-green">Partner</span>, Not<br/>
             Just a Contractor.
-          </h2>
+          </h3>
           
           <p className="partner-desc">
             We're a PEB industrial construction company, and it shows in how we work. From concept and engineering through fabrication and installation, we deliver turnkey EPC solutions for factories, warehouses, and industrial buildings across India - one team carrying the whole job, not a contractor who vanishes once the steel is up.

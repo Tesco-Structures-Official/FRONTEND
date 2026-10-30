@@ -17,12 +17,12 @@ const WhyChooseUs = () => {
   return (
     <section className="why-choose-us-section">
       <div className="container">
-        <h2 className="why-title">
+        <h3 className="why-title">
           WHY CLIENTS STAY WITH US
-        </h2>
-        <h2 className="why-title">
+        </h3>
+        <h3 className="why-title">
           <span className="highlight-green">Why Industries Across South India Choose Tesco</span>
-        </h2>
+        </h3>
 
         <div className="features-grid-bento">
           

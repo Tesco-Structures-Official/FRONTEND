@@ -20,15 +20,15 @@ const Home = () => {
     <>
       <Seo
         schemas={homeSchemas}
-        title="PEB Company in Chennai | Turnkey PEB Solutions – Tesco Structures"
+        title="PEB Company in Chennai | Turnkey PEB Solutions - Tesco Structures"
         description="Tesco Structures provides turnkey Pre-Engineered Buildings in Chennai — from design to on-site erection of warehouses, factories, sheds & MEP. Get a quote."
         canonical="https://www.tescostructures.com/"
-        ogTitle="PEB Company in Chennai | Turnkey PEB Solutions – Tesco Structures"
+        ogTitle="PEB Company in Chennai | Turnkey PEB Solutions - Tesco Structures"
         ogUrl="https://www.tescostructures.com/"
         ogImage="https://www.tescostructures.com/ts-logo.png"
         ogDescription="Tesco Structures provides turnkey Pre-Engineered Buildings in Chennai — from design to on-site erection of warehouses, factories, sheds & MEP. Get a quote."
         twitterCard="summary"
-        twitterTitle="PEB Company in Chennai | Turnkey PEB Solutions – Tesco Structures"
+        twitterTitle="PEB Company in Chennai | Turnkey PEB Solutions - Tesco Structures"
         twitterSite="@https://www.tescostructures.com/"
         twitterDescription="Tesco Structures provides turnkey Pre-Engineered Buildings in Chennai — from design to on-site erection of warehouses, factories, sheds & MEP. Get a quote."
         twitterImage="https://www.tescostructures.com/ts-logo.png"

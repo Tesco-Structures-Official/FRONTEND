@@ -1,8 +1,12 @@
 import './Footer.css';
 import { MapPin, Phone, Mail } from 'lucide-react';
+import { useLocation } from 'react-router-dom';
 // We'll render custom SVGs for the social networks to ensure perfect compatibility and avoid version-specific Lucide export mismatch.
 
 const Footer = () => {
+  // Homepage SEO spec lists the footer headings as H2; other pages keep H4.
+  const { pathname } = useLocation();
+  const FooterHeading = pathname === '/' ? 'h2' : 'h4';
   return (
     <footer className="footer-section">
       <div className="footer-shade-container">
@@ -43,7 +47,7 @@ const Footer = () => {
 
           {/* Column 2: Quick Links */}
           <div className="footer-col">
-            <h4 className="footer-heading">Quick Links</h4>
+            <FooterHeading className="footer-heading">Quick Links</FooterHeading>
             <ul className="footer-links">
               <li><a href="/">Home</a></li>
               <li><a href="/about-us">About Us</a></li>
@@ -56,7 +60,7 @@ const Footer = () => {
 
           {/* Column 3: Services */}
           <div className="footer-col">
-            <h4 className="footer-heading">Our Services</h4>
+            <FooterHeading className="footer-heading">Our Services</FooterHeading>
             <ul className="footer-links">
               <li><a href="/peb-contractors-in-chennai">Pre-Engineered Building (PEB)</a></li>
               <li><a href="/tensile-roofing-chennai">Tensile Roofing</a></li>
@@ -68,7 +72,7 @@ const Footer = () => {
 
           {/* Column 4: Contact Info */}
           <div className="footer-col contact-col">
-            <h4 className="footer-heading">Get in Touch</h4>
+            <FooterHeading className="footer-heading">Get in Touch</FooterHeading>
             <ul className="footer-contact-list">
               <li>
                 <MapPin size={18} className="footer-icon" />

@@ -26,10 +26,10 @@
   RewriteRule ^ - [L]
 
   # 2) Everything else -> the React app. This is what stops refresh / deep-link 404s.
-  RewriteRule . /index.html [L]
+  RewriteRule . /app.html [L]
 </IfModule>
 
 # Safety net: if mod_rewrite is unavailable, send 404s to the app too
 <IfModule !mod_rewrite.c>
-  ErrorDocument 404 /index.html
+  ErrorDocument 404 /app.html
 </IfModule>

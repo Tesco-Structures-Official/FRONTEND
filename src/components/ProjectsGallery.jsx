@@ -73,7 +73,7 @@ const ProjectsGallery = () => {
       <div className="container">
         <ScrollReveal className="home-gallery-header-box" delay={0.1} y={30}>
           <div className="home-gallery-badge gradient-badge">OUR WORK</div>
-          <h2 className="home-gallery-title">Projects Gallery</h2>
+          <h3 className="home-gallery-title">Projects Gallery</h3>
         </ScrollReveal>
 
         <ScrollReveal 

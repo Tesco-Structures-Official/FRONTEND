@@ -16,10 +16,10 @@ const GlobalStandards = () => {
               <span>DESIGN & ENGINEERING</span>
             </div>
             
-            <h2 className="global-title">
+            <h3 className="global-title">
               <span className="text-white">World Class</span><br/>
               <span className="text-grey">Engineering.</span>
-            </h2>
+            </h3>
             
             <p className="global-desc">
               There's a lot of detail in a steel building you never see. As a PEB manufacturer in Chennai, we put our engineering into pre-engineered buildings and tensile structures that are designed once, properly, so they go up clean and stand for decades.

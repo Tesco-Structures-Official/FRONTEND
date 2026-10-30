@@ -29,6 +29,13 @@ const Seo = ({
   twitterImageAlt,
   schemas = [],
 }) => {
+  // index.html ships static homepage tags (data-static-seo) so they appear in the
+  // raw source. Once this page's own tags are rendered, remove the static copies
+  // so the head never holds two titles, descriptions or canonicals.
+  useEffect(() => {
+    document.querySelectorAll('[data-static-seo]').forEach((node) => node.remove());
+  }, []);
+
   // Inject JSON-LD into <head> (React does not hoist inline scripts).
   useEffect(() => {
     if (!schemas || schemas.length === 0) return undefined;

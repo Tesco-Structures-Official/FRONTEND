@@ -309,10 +309,10 @@ const TensileServices = () => {
       <div className="container services-container">
         
         <div className="services-header" style={{ marginBottom: '20px' }}>
-          <h2 className="services-title" style={{ color: 'white' }}>
+          <h3 className="services-title" style={{ color: 'white' }}>
             Specialized <span className="highlight-green">Tensile Solutions</span><br />
             Across 9 Sectors
-          </h2>
+          </h3>
         </div>
 
         {/* SWAPPED LAYOUT: Card on Left, List on Right */}
