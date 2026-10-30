@@ -1,0 +1,40 @@
+{
+  "rewrites": [
+    {
+      "source": "/peb-contractors-in-chennai/",
+      "destination": "/peb-contractors-in-chennai/index.html"
+    },
+    {
+      "source": "/peb-contractors-in-chennai",
+      "destination": "/peb-contractors-in-chennai/index.html"
+    },
+    {
+      "source": "/tensile-roofing-chennai/",
+      "destination": "/tensile-roofing-chennai/index.html"
+    },
+    {
+      "source": "/tensile-roofing-chennai",
+      "destination": "/tensile-roofing-chennai/index.html"
+    },
+    {
+      "source": "/civil-construction-services/",
+      "destination": "/civil-construction-services/index.html"
+    },
+    {
+      "source": "/civil-construction-services",
+      "destination": "/civil-construction-services/index.html"
+    },
+    {
+      "source": "/architectural-design-structural-consultancy-chennai/",
+      "destination": "/architectural-design-structural-consultancy-chennai/index.html"
+    },
+    {
+      "source": "/architectural-design-structural-consultancy-chennai",
+      "destination": "/architectural-design-structural-consultancy-chennai/index.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/app.html"
+    }
+  ]
+}

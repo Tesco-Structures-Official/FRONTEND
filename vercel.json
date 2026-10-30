@@ -25,6 +25,14 @@
       "destination": "/civil-construction-services/index.html"
     },
     {
+      "source": "/architectural-design-structural-consultancy-chennai/",
+      "destination": "/architectural-design-structural-consultancy-chennai/index.html"
+    },
+    {
+      "source": "/architectural-design-structural-consultancy-chennai",
+      "destination": "/architectural-design-structural-consultancy-chennai/index.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/app.html"
     }

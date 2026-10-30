@@ -17,6 +17,7 @@ const ROUTES = [
   '/peb-contractors-in-chennai',
   '/tensile-roofing-chennai',
   '/civil-construction-services',
+  '/architectural-design-structural-consultancy-chennai',
 ];
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
